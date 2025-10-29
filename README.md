@@ -2,7 +2,7 @@
 
 A React component library built with Vite and Material UI featuring advanced components.
 
-## Installation
+## Installation (in future!)
 
 ```bash
 npm install react-selection-list
@@ -106,6 +106,7 @@ function App() {
 
 ```bash
 npm run build
+npm run dev
 ```
 
 This will generate the distribution files in the `dist` folder.
@@ -129,4 +130,5 @@ This library follows UX best practices:
 
 ## License
 
-MIT
+Apache2.0
+
