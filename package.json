@@ -1,0 +1,56 @@
+{
+  "name": "react-selection-list",
+  "version": "1.0.0",
+  "description": "A React component library featuring the SelectionList component with modern UX design",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -p tsconfig.build.json && vite build",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "react",
+    "component",
+    "library",
+    "material-ui",
+    "vite"
+  ],
+  "author": "",
+  "license": "MIT",
+  "peerDependencies": {
+    "@emotion/react": "^11.0.0",
+    "@emotion/styled": "^11.0.0",
+    "@mui/material": "^6.0.0",
+    "@mui/icons-material": "^6.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.26",
+    "@types/react-dom": "^18.3.7",
+    "@vitejs/plugin-react": "^4.7.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "typescript": "^5.9.3",
+    "vite": "^6.4.1"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.0.0",
+    "@emotion/styled": "^11.0.0",
+    "@mui/icons-material": "^7.3.4",
+    "@mui/material": "^6.0.0"
+  }
+}
